@@ -14,6 +14,13 @@ export default function FirstPost() {
                 <title>First Post</title>
             </Head>
             <h1 className={styles.headingAlign}>First Post</h1>
+            <div className={styles.postCard}>
+                <p className={styles.postText}>
+                    This is my first post on my Next.js blog! I'm excited to share my journey and experiences in web development with you all.
+                    Stay tuned for more updates and insights as I continue to explore the world of Next.js and beyond.
+                </p>
+            </div>
+
         </Layout>
     );
     // End of the FirstPost component function
