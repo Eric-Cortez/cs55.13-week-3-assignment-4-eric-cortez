@@ -33,7 +33,9 @@ export default function Home() {
       <section>
         <h2 className={styles.headingAlign}>Posts</h2>
         <div className={styles.postCard}>
-          <Link href="/posts/first-post" className={styles.postLink}>First Post</Link>
+          <Link href="/posts/first-post" className={styles.postLink}>
+            First Post
+          </Link>
         </div>
 
       </section>
