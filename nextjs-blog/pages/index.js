@@ -1,11 +1,18 @@
+// Import the Head component from Next.js for managing document head elements
 import Head from 'next/head';
+// Import the Layout component and siteTitle from the layout component
 import Layout, { siteTitle } from '../components/layout';
+// Import utility styles from the utils CSS module
 import utilStyles from '../styles/utils.module.css';
+// Import component-specific styles from the Home CSS module
 import styles from '../styles/Home.module.css'
+// Import the Link component from Next.js for client-side navigation
 import Link from 'next/link';
 
 
+// Define and export the default Home component function
 export default function Home() {
+  // Return the JSX structure for the home page
   return (
     <Layout home>
       <Head>
@@ -33,4 +40,6 @@ export default function Home() {
 
     </Layout>
   );
+  // End of the Home component function
 }
+// End of the Home component
